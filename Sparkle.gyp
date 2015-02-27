@@ -67,7 +67,6 @@
             # Configurations/ConfigFramework.xcconfig
             'DYLIB_INSTALL_NAME_BASE': '@rpath',
             'DYLIB_COMPATIBILITY_VERSION': '1.6',
-            'DYLIB_CURRENT_VERSION': '$(SPARKLE_VERSION_MAJOR).$(SPARKLE_VERSION_MINOR).$(SPARKLE_VERSION_PATCH)',
             'PRODUCT_NAME': 'Sparkle',
             'WRAPPER_EXTENSION': 'framework',
             'FRAMEWORK_VERSION': 'A',
@@ -170,7 +169,6 @@
               'SUHost.h',
               'SUInstaller.h',
               'SULog.h',
-              'SUGuidedPackageInstaller.h',
               'SUPackageInstaller.h',
               'SUPlainInstaller.h',
               'SUPlainInstallerInternals.h',
@@ -190,7 +188,6 @@
             'Sparkle/SUHost.m',
             'Sparkle/SUInstaller.m',
             'Sparkle/SULog.m',
-            'Sparkle/SUGuidedPackageInstaller.m',
             'Sparkle/SUPackageInstaller.m',
             'Sparkle/SUPlainInstaller.m',
             'Sparkle/SUPlainInstallerInternals.m',
