@@ -73,7 +73,9 @@
             'FRAMEWORK_VERSION': 'A',
             'INFOPLIST_FILE': 'Sparkle/Sparkle-Info.plist',
             'GCC_PREPROCESSOR_DEFINITIONS': '$(inherited) BUILDING_SPARKLE=1',
-            'OTHER_LDFLAGS': '-Wl,-U,_NSURLQuarantinePropertiesKey',
+            'OTHER_LDFLAGS': [
+              '-Wl,-U,_NSURLQuarantinePropertiesKey',
+            ],
             'SKIP_INSTALL': 'YES',
           },
           'variables': {
@@ -158,7 +160,9 @@
             'PRODUCT_NAME': '$(SPARKLE_RELAUNCH_TOOL_NAME)',
             'SKIP_INSTALL': 'YES',
             'ASSETCATALOG_COMPILER_APPICON_NAME': 'AppIcon',
-            'OTHER_LDFLAGS': '-Wl,-U,_NSURLQuarantinePropertiesKey',
+            'OTHER_LDFLAGS': [
+              '-Wl,-U,_NSURLQuarantinePropertiesKey',
+            ],
           },
           'variables': {
             'headers': [
